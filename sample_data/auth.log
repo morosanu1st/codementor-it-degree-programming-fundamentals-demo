@@ -1,0 +1,14 @@
+# Sample authentication log (IPs are from documentation-only ranges, RFC 5737)
+2026-10-01 08:00:05 SUCCESS user=student ip=192.0.2.10
+2026-10-01 08:02:11 FAILED user=admin ip=203.0.113.7
+2026-10-01 08:02:14 FAILED user=admin ip=203.0.113.7
+2026-10-01 08:02:18 FAILED user=root ip=203.0.113.7
+2026-10-01 08:02:21 FAILED user=root ip=203.0.113.7
+2026-10-01 08:02:25 FAILED user=test ip=203.0.113.7
+2026-10-01 08:10:40 FAILED user=student ip=192.0.2.10
+2026-10-01 08:10:52 SUCCESS user=student ip=192.0.2.10
+2026-10-01 09:00:00 FAILED user=guest ip=198.51.100.23
+2026-10-01 09:20:00 FAILED user=guest ip=198.51.100.23
+2026-10-01 09:40:00 FAILED user=guest ip=198.51.100.23
+this line is garbage and will be skipped
+2026-10-01 10:15:00 SUCCESS user=admin ip=192.0.2.44
